@@ -1,0 +1,245 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F0F0D8;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	text-transform : uppercase;
+	font-size: 40px;
+}
+
+table {
+    background-color: pink;
+    border-spacing :5px;
+}
+
+tr {
+	background-color: lightgrey;
+	box-shadow: ;
+	border: solid 2px lightgrey;
+}
+
+td {
+	width: 65px;
+	height: 65px;
+}
+
+#jeu{
+	margin-top: 75px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 20px;
+	color: white;
+}
+
+.divInstruction{
+	padding: 150px 25% 0px 25%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.startButton{
+	margin-top: 10%;
+	align-self:center;
+	background:#0962EA;
+	border-radius: 10px;
+	transition:all .5s ease;
+	color:white;
+	font-size:2rem;
+	height: 75px;
+	width: 400px;
+	letter-spacing:1px;
+	outline:none;
+}
+
+#part1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* INFOS JOUEUR 1*/
+#Player1 {
+	background-color: darksalmon;
+	width: 290px;
+	text-align: center;
+	border-radius: 10px;
+}
+#Player1 h1 {
+	text-transform: uppercase;
+}
+#infosPlayer1 {
+	width: 290px;
+	padding-top: 40px;
+}
+#jaugeSanteBackPlayer1{
+	background-color: white;
+	margin: 0px auto 0px auto;
+	height: 25px;
+	width: 200px;
+	color: red;
+}
+#jaugeSanteFrontPlayer1{
+	background-color: black;
+	height: 25px;
+	width: 200px;
+	color: white;
+}
+#armePlayer1{
+	display: flex;
+	flex-direction: column;
+}
+#imageWeaponPlayer1{
+	width: 65px;
+	height: 65px;
+	margin: 0px auto 0px auto;
+}
+
+/* INFOS JOUEUR 2*/
+#Player2 {
+	background-color: lightgreen;
+	width: 290px;
+	text-align: center;
+	border-radius: 10px;
+}
+#Player2 h1 {
+	text-transform: uppercase;
+}
+#infosPlayer2 {
+	width: 290px;
+	padding-top: 40px;
+}
+#jaugeSanteBackPlayer2{
+	background-color: white;
+	margin: 0px auto 0px auto;
+	height: 25px;
+	width: 200px;
+	color: red;
+}
+#jaugeSanteFrontPlayer2{
+	background-color: black;
+	height: 25px;
+	width: 200px;
+	color: white;
+}
+#armePlayer2{
+	display: flex;
+	flex-direction: column;
+}
+#imageWeaponPlayer2{
+	width: 65px;
+	height: 65px;
+	margin: 0px auto 0px auto;
+}
+
+/* Murs */ 
+.wall {
+	background-image: url("../images/mur.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Arme */ 
+.Arc , ._Arc  {
+	background-image: url("../images/Arc.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+._Arc  {
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.Bazooka , ._Bazooka {
+	background-image: url("../images/Bazooka.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+._Bazooka {
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.Katana , ._Katana {
+	background-image: url("../images/Katana.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+._Katana {
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.Carabine , ._Carabine {
+	background-image: url("../images/Carabine.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+._Carabine {
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+/* Players */ 
+.player1 {
+	background-color: darksalmon;
+
+}
+
+.player2 {
+	background-color: lightgreen;
+}
+
+/* Déplacement */ 
+.move {
+  	background-color: lightblue;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+/* Boutons */
+.posturePlayer1Div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.attackPlayer1Button {
+	background-color: white;
+	background-image: url("../images/combat.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 125px;
+	height: 125px;
+}
+
+.defensePlayer1Button {
+	background-color: white;
+	background-image: url("../images/bouclier.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 125px;
+	height: 125px;
+}
+
+.posturePlayer2Div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.attackPlayer2Button {
+	background-color: white;
+	background-image: url("../images/combat.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 125px;
+	height: 125px;
+}
+
+.defensePlayer2Button {
+	background-color: white;
+	background-image: url("../images/bouclier.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 125px;
+	height: 125px;
+}

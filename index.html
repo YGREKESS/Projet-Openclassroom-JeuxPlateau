@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+
+    <h1 class="gameTitle"> Jeu de plateau </h1>
+
+<div id="jeu">
+  <div id="part1">
+    <div id="Player1">
+      <h1> Joueur 1 </h1>
+      </br>
+      <div id="infosPlayer1">
+        <div id="jaugeSanteBackPlayer1"><div id="jaugeSanteFrontPlayer1"></div></div>
+        </br>
+        <div id="armePlayer1">
+          <div id="imageWeaponPlayer1" ></div>
+          <div id="nameWeaponPlayer1" ></div>
+        </div>
+        </br>
+        <p>Dégats : <span id="damageWeaponPlayer1"></span></p>
+        </br>
+        <p>Posture : <span id="posturePlayer1"></span></p>
+        </br>
+      </div>
+      <div class="posturePlayer1Div">
+        <button class="attackPlayer1Button" type="button"></button>
+        <button class="defensePlayer1Button" type="button"></button>
+      </div>
+    </div>
+
+	<div id="map"></div>
+
+    <div id="Player2">
+       <h1> Joueur 2 </h1>
+      </br>
+      <div id="infosPlayer2">
+        <div id="jaugeSanteBackPlayer2"><div id="jaugeSanteFrontPlayer2"></div></div>
+        </br>
+        <div id="armePlayer2">
+          <div id="imageWeaponPlayer2" ></div>
+          <div id="nameWeaponPlayer2" ></div>
+        </div>
+        </br>
+        <p>Dégats : <span id="damageWeaponPlayer2"></span></p>
+        </br>
+        <p>Posture : <span id="posturePlayer2"></span></p>
+        </br>
+      </div>
+      <div class="posturePlayer2Div">
+        <button class="attackPlayer2Button" type="button"></button>
+        <button class="defensePlayer2Button" type="button"></button>
+      </div>
+      </br>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  
+  <script src="js/board.js"></script>
+  <script src="js/player.js"></script>
+	<script src="js/weapon.js"></script>
+   <script src="js/outils.js"></script>  
+  <script src="js/game.js"></script>
+
+
+</body>
+</html>
